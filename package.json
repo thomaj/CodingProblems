@@ -1,0 +1,16 @@
+{
+  "name": "Coding Challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test1113": "mocha 11-13-18/",
+    "test1114": "mocha 11-14-18/"
+  },
+  "author": "",
+  "license": "ISC"
+}
