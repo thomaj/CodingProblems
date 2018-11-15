@@ -1,4 +1,20 @@
+/**
+ * @summary
+ * Using a given integer array, returns a new array whose value at a given index i is equal to
+ * the product of each value at all other indicies.  If no other indicies are present (such as in
+ * the case when there is only one element), the value for the index is undefined
+ * 
+ * @param {Integer[]} arr the integer array to perform the algorithm on
+ * @returns {Integer[]} the resulting array
+ */
 
+
+/**
+ * This algorithm is the simplistic 'brute force' approach where we loop through the
+ * array for each index to determine the product of all the other values.
+ * 
+ * Runtime: Θ(n^2)
+ */
 let products1 = function(arr) {
     let result = new Array(arr.length);
 
@@ -17,6 +33,15 @@ let products1 = function(arr) {
 }
 
 
+/**
+ * This alogrithm takes a more intuitve approach and leverages mathmatecal properties or multiplication
+ * and division.  This computes the product of all integers in the array and then divides by the number
+ * at a particular index to find the value for that index.  However, this can lead to problems when zeros
+ * are present in the array since we cannot divide by zero.  Because of this, we must perform some checks
+ * to see if zeros are present and deal with them accordingly.
+ * 
+ * Runtime: Θ(n)
+ */
 let products2 = function (arr) {
     let result = new Array(arr.length);
 
@@ -52,6 +77,8 @@ let products2 = function (arr) {
 
     return result;
 }
+
+
 
 module.exports = {
     products1,
