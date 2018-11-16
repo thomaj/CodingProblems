@@ -11,7 +11,8 @@
   "scripts": {
     "test1113": "mocha 11-13-18/",
     "test1114": "mocha 11-14-18/",
-    "test1115": "mocha 11-15-18/"
+    "test1115": "mocha 11-15-18/",
+    "test1116": "mocha 11-16-18/"
   },
   "author": "",
   "license": "ISC"
