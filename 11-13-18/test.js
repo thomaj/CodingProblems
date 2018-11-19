@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const {sumTo1, sumTo2 } = require('./index');
 
 
-let sharedTests = function (products) {
+let sharedTests = function () {
 
     it('empty', function () {
         let result = this.func([], 10);
