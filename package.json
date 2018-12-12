@@ -19,7 +19,8 @@
     "test1122": "mocha 11-22-18/",
     "test12": "mocha 12/",
     "test14": "mocha 14/",
-    "test27": "mocha 27/"
+    "test27": "mocha 27/",
+    "test29": "mocha 29/"
   },
   "author": "",
   "license": "ISC"
